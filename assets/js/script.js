@@ -19,12 +19,13 @@ play.addEventListener('submit', event => {
  */
 function howToPlay() {
     let htp = document.getElementById('htpText')
-    if (htp.style.width == "0px"){
+    if (htp.style.border == "0px"){
     htp.innerHTML = '<h2>How To Play</h2> <br> Rules:'
     htp.style.width = "200px"
-    htp.style.backgroundColor = "purple"
+    htp.style.border = "4px solid #37003c"
 } else {
-    htp.style.width = "0px"
+   
     htp.innerHTML = ""
+    htp.style.border = "0px"
     }
 }
