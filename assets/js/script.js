@@ -20,8 +20,8 @@ play.addEventListener('submit', event => {
 function howToPlay() {
     let htp = document.getElementById('htpText')
     if (htp.style.border == "0px"){
-    htp.innerHTML = '<h2>How To Play</h2> <br> Rules:'
-    htp.style.width = "200px"
+    htp.innerHTML = "<h2>How To Play</h2> <br> Rules: <ul><li>Enter Username</li><li>The player gets 10 questions</li><li>1 point per question</li><li>Three wrong answers and the game is over</li></ul>"
+    htp.style.width = "50%"
     htp.style.border = "4px solid #37003c"
 } else {
    
